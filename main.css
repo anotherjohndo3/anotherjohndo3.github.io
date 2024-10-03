@@ -80,7 +80,7 @@ header {
 }
 
 article {
-    background-color: #62a0ea;
+    background-color: #d7e8fd;
     border-radius: 5px;
     padding: 20px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -94,12 +94,12 @@ footer {
 
 footer a {
     text-decoration: none;
-    color: #62a0ea;
+    color: #303d4d;
     font-weight: bold;
 }
 
 footer a:hover {
-    color: #3584e4;
+    color: #451cdb;
 }
 
 /* Responsive design */
