@@ -31,7 +31,7 @@ h1::after {
     content: '';
     position: absolute;
     left: 0;
-    bottom: 0;
+    bottom: -10px; /* Move the line down */
     width: 100%;
     height: 2px;
     background-color: #3498db;
@@ -54,7 +54,8 @@ header {
 .slogan {
     font-style: italic;
     color: #7f8c8d;
-    margin-bottom: 10px; /* Add space between slogan and title */
+    margin-top: 5px; /* Add space between title and slogan */
+    margin-bottom: 15px; /* Add space between slogan and blue line */
 }
 
 /* Post list styles */
