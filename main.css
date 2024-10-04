@@ -7,17 +7,17 @@
 
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.3;
-    color: #333;
-    max-width: 800px;
+    line-height: 1.4;
+    color: #ffffff;
+    max-width: 850px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #c9ddf4;
+    background-color: #303134;
 }
 
 /* Typography */
 h1, h2 {
-    color: #2c3e50;
+    color: #c2e7ff;
 }
 
 h1 {
@@ -40,18 +40,19 @@ header {
 
 .slogan {
     font-style: italic;
-    border-bottom: 2px solid #3498db;
-    color: #7f8c8d;
+    border-bottom: 2px solid #4285f4;
+    color: #5f6368;
 }
 
 /* Post list styles */
 .post-list {
     list-style-type: none;
+    text-align: center;
 }
 
 .post-list li {
     margin-bottom: 10px;
-    background-color: #f6f5f4;
+    background-color: #d0d0d1;
     border-radius: 5px;
     padding: 15px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -59,28 +60,23 @@ header {
 }
 
 .post-list li:hover {
-    transform: translateY(-3px);
+    transform: translateY(-5px);
 }
 
 .post-list a {
     text-decoration: none;
-    color: #3584e4;
+    color: #e8eaed;
     font-weight: bold;
 }
 
 .post-list a:hover {
-    color: #25db2c;
+    color: #a9cde5;
 }
 
 /* Post styles */
-.post-meta {
-    font-style: italic;
-    color: #7f8c8d;
-    margin-bottom: 20px;
-}
 
 article {
-    background-color: #d7e8fd;
+    background-color: #babcbd;
     border-radius: 5px;
     padding: 20px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -94,12 +90,12 @@ footer {
 
 footer a {
     text-decoration: none;
-    color: #303d4d;
+    color: #bed7f9;
     font-weight: bold;
 }
 
 footer a:hover {
-    color: #451cdb;
+    color: #1a73e8;
 }
 
 /* Responsive design */
