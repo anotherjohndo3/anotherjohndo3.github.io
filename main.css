@@ -17,7 +17,7 @@ body {
 
 /* Typography */
 h1, h2 {
-    color: #c2e7ff;
+    color: #c4e1dd;
 }
 
 h1 {
@@ -26,6 +26,7 @@ h1 {
 
 h2 {
     font-size: 2em;
+    text-align: center;
 }
 
 p {
@@ -40,7 +41,7 @@ header {
 
 .slogan {
     font-style: italic;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     border-bottom: 2px solid #4285f4;
     color: #9fa7b0;
 }
